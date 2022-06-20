@@ -18,7 +18,7 @@
         <v-icon largs v-if="food.eats === '?'">mdi-robot-confused</v-icon>
       </div>
       <div>{{ food.name }}</div>
-      <div class="hoverInfo" v-if="isHovering && food.comment">
+      <div class="hoverInfo" v-if="isHovering">
         <p v-if="food.comment">
           {{ food.comment }}
         </p>
