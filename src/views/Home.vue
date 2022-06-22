@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container style="max-width: 1200px">
     <v-row>
       <v-col>
         <search-bar />
@@ -20,6 +20,6 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   components: { SearchBar, FoodList },
-  name: "Home",
+  name: "HomePage",
 });
 </script>
